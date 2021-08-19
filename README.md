@@ -33,6 +33,11 @@ Ngrok should be installed in the users home folder such that it can be run using
 ```bash
 ~/ngrok
 ```
+To do this install ngrok in your home folder as instructed on the ngrok website. Then append 
+```bash
+alias ngrok='~/ngrok'
+```
+to your .bashrc.
 
 Otherwise you have to change the "start ngrok" part in set-io-webhook.sh.
 
