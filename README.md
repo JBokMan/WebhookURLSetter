@@ -33,11 +33,7 @@ Ngrok should be installed in the users home folder such that it can be run using
 ```bash
 ~/ngrok
 ```
-To do this install ngrok in your home folder as instructed on the ngrok website. Then append 
-```bash
-alias ngrok='~/ngrok'
-```
-to your .bashrc.
+To do this install ngrok in your home folder as instructed on the ngrok website.
 
 Otherwise you have to change the "start ngrok" part in set-io-webhook.sh.
 
@@ -45,6 +41,14 @@ After running the script successfully ngrok runs in the background. If you want 
 
 ```
 kill $(pgrep -f ngrok)
+```
+Additionally you could append 
+```bash
+alias ngrok='~/ngrok'
+```
+to your .bashrc. This allows you to run ngrok in your shell by just writing 
+```bash
+ngrok
 ```
 
 ---
