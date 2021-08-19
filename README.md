@@ -1,6 +1,6 @@
 ## What does it do?
 
-It automates starting a local ngrok server and setting the webhook url in sipgate.io.
+It automates starting a local ngrok server and sets the webhook url in sipgate.io.
 
 ---
 
