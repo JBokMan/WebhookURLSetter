@@ -18,7 +18,7 @@ const firefox = require("selenium-webdriver/firefox");
       )
       .getText();
   } catch (error) {
-    console.log(1);
+    console.log(error);
   } finally {
     await driver.quit();
   }
