@@ -31,7 +31,7 @@ SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
 # set URL in sipgateio
 STATUS=$(node $SCRIPTPATH/SipgateIoWebhookUrlSetter $URL)
-if [ STATUS != 0 ]
+if [ $STATUS != "0" ]
 then
   echo 'Something went wrong setting the URL in sipgateio: ' $STATUS
   PID=$(pgrep -f ngrok)
