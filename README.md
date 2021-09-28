@@ -22,7 +22,7 @@ It starts a local ngrok server, grabs the generated URL and sets it as the webho
 - [ngrok](https://ngrok.com/) for providing the local server
 - [xclip](https://github.com/astrand/xclip) for copying the URL to clipboard
 - [firefox](https://www.mozilla.org/en-US/firefox/new/) for fetching the URL with Selenium
-- [GeckoDriver](https://github.com/mozilla/geckodriver)[How to install on Ubuntu](https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu) for fetching the URL with Selenium with Firefox
+- [GeckoDriver](https://github.com/mozilla/geckodriver) - [How to install on Ubuntu](https://askubuntu.com/questions/870530/how-to-install-geckodriver-in-ubuntu) for fetching the URL with Selenium with Firefox
 
 ---
 
